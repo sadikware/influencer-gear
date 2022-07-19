@@ -281,11 +281,8 @@ hr {
     align-items: center;
   }
 
-  .site-title h2 {
-    text-align: center;
-  }
   .site-title .fa-bars {
-    margin-right: 120px;
+    margin-right: 3.5em;
   }
   /* Header End */
 
