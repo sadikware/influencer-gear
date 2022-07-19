@@ -6,7 +6,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-/* Buttton */
+/* Utilities */
 
 .btn {
   border: none;
@@ -64,7 +64,7 @@ body {
 .banner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 130px;
+  column-gap: 130px;
   align-items: center;
   margin-top: 50px;
   margin-bottom: 70px;
@@ -106,3 +106,151 @@ hr {
   border: 1px solid #f5f3f3;
 }
 /* Feature Company End */
+
+/* Popular Collection Start */
+.popular-collection {
+  width: 60%;
+  margin: 100px auto;
+}
+
+.popular-collection > h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.popular-collection-showcase {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.collection-card {
+  padding: 17px 14px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+}
+
+.collection-image img {
+  width: 100%;
+}
+
+.collection-details h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.collection-details h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 6px 0px;
+}
+
+.collection-info p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #787885;
+  line-height: 143%;
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+}
+
+.ratings i {
+  color: orange;
+  font-size: 10px;
+}
+
+.ratings .rating-point {
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #5e6366;
+}
+
+.popular-collection-pagination {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 50px;
+
+  color: rgba(224, 44, 109, 0.87);
+  text-align: right;
+}
+/* Popular Collection End  */
+
+/* Join Newsletter Start */
+.join-newsletter {
+  display: flex;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.newsletter-thumbnail img {
+  width: 404px;
+  height: 270px;
+}
+
+.newsletter-info {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.newsletter-info h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 60px;
+  color: #0a0826;
+}
+
+.newsletter-info p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+}
+
+.newsletter-info button {
+  margin-top: 16px;
+  border-radius: 0;
+  padding: 10px 24px;
+}
+/* Join Newsletter End */
+
+/* Footer Start */
+.footer {
+  background-color: #0a0826;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.footer-info h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.footer-info p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+}
+.footer-social-icon {
+  margin-top: 17px;
+}
+.footer-social-icon .fi {
+  background-color: rgba(255, 255, 255, 0.13);
+  padding: 10px;
+  border-radius: 50px;
+  margin-right: 16px;
+}
+/* Footer End */
