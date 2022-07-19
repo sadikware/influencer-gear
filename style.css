@@ -44,6 +44,10 @@ body {
   font-weight: 700;
 }
 
+.fa-bars {
+  display: none;
+}
+
 .nav-menu-list {
   display: flex;
 }
@@ -254,3 +258,5 @@ hr {
   margin-right: 16px;
 }
 /* Footer End */
+
+/* Media Query For Small Devices ≥576px */
