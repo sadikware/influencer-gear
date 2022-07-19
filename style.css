@@ -201,7 +201,6 @@ hr {
 
 .newsletter-info {
   margin-left: 120px;
-  margin-right: 120px;
 }
 .newsletter-info h2 {
   font-weight: 700;
@@ -260,3 +259,123 @@ hr {
 /* Footer End */
 
 /* Media Query For Small Devices ≥576px */
+
+@media screen and (max-width: 576px) {
+  /* Header Start */
+
+  .header {
+    margin: 50px 5px;
+  }
+  .fa-bars {
+    display: inline-block;
+  }
+  .nav-item,
+  .fa-magnifying-glass {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .site-title h2 {
+    text-align: center;
+  }
+  .site-title .fa-bars {
+    margin-right: 120px;
+  }
+  /* Header End */
+
+  /* Banner Start */
+  .banner {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0px 30px;
+  }
+
+  .banner-image img {
+    width: 100%;
+  }
+  .banner-info {
+    text-align: center;
+  }
+
+  .banner-info h1 {
+    font-size: 34px;
+  }
+
+  /* Banner End */
+
+  /* Feature Company Start */
+  .feature-company-showcase {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .company img {
+    width: 100%;
+  }
+
+  /* Feature Company End */
+
+  /* Popular Collection Start */
+
+  .popular-collection-showcase {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .popular-collection {
+    width: 90%;
+  }
+
+  .collection-details h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .collection-details h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .collection-info p:first-child {
+    display: inline;
+  }
+  .collection-info p:nth-child(2n) {
+    display: inline;
+  }
+  .collection-info p {
+    color: #787885;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /* Popular Collection End */
+
+  /* Join Newsletter Start */
+  .join-newsletter {
+    flex-direction: column-reverse;
+  }
+
+  .newsletter-info {
+    text-align: center;
+    margin-left: 0;
+    padding: 0px 30px;
+    margin-bottom: 40px;
+  }
+
+  .newsletter-info h2 {
+    font-size: 24px;
+  }
+
+  /* Join Newsletter Start */
+
+  /* Footer Start */
+  .footer-info h2 {
+    font-size: 18px;
+  }
+  /* Footer End */
+
+  /* Extra Display None */
+}
