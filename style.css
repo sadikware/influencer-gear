@@ -262,6 +262,7 @@ hr {
 
   .header {
     margin: 50px 5px;
+    width: 90vw;
   }
   .fa-bars {
     display: inline-block;
@@ -277,8 +278,10 @@ hr {
     align-items: center;
   }
 
-  .site-title .fa-bars {
-    margin-right: 3.5em;
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   /* Header End */
 
